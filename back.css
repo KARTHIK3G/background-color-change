@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    transition: 0.6s;
+}
+@keyframes bb {
+    0%{#btn{border-top-color: purple;}}
+    25%{#btn{border-right-color: purple;}}
+    50%{#btn{border-bottom-color: purple;}}
+    90%{#btn{border-left-color: purple;}}
+    
+    
+}
+.wrap
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100vw;
+ height: 100vh;
+ flex-direction: column;
+ 
+    
+}
+h2
+{
+    
+    text-align: center;
+    font-family: itim,monospace;
+    
+    overflow: hidden;
+    z-index: -9999;
+    color: #fff;
+    position:inherit;
+}
+#btn
+{
+    min-width: 50px;
+    max-height: 120px;
+    background-color: red;
+    box-sizing: 2px 2px 3px ;
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(245,35,123);
+    border-radius: 20px;
+    z-index: -9999;
+    border: 0.5px solid #fff;
+    color: #fff;
+    font-size: 30px;
+    font-family:itim, monospace, Times New Roman;
+    animation: bb 4s infinite;
+    
+}
+label,#cp
+{
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+    top: 16px;
+    
+    font-family: itim,monospace;
+   
+}
+p
+{
+    text-align: right;
+    color: #fff;
+    font-family: itim,monospace;
+    position: inherit;
+}
